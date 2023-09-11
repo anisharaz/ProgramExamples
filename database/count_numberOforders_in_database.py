@@ -2,8 +2,8 @@ from mysql.connector import connect
 import json as js
 conn = connect(
     host="10.0.0.3",
-    user="root",
-    password="kali",
+    user="db_server_username",
+    password="db_server_pass",
     database="classicmodels"
 )
 cur = conn.cursor()
